@@ -1,0 +1,7 @@
+3d App Deeper Understandings Statement
+
+When creating the 3d models, rather than using Blender or Maya at first, I used Cinema 4D to make my 3d renders and I thought they came out looking pretty good as seen in the c4d models tab of my submission.
+From there, they were exported in an fxb file, which was then imported into Blender so that I could import into x3d. Before doing that I had to make sure that the materials were still on the can and the bottles when I exported, so I had to change the image texturing on Blender.
+From there I exported into castle-model-viewer, which showed me a 3d render of what I had created, which would be similar to that of what was going into my website.
+From there, I downloaded the x3d file and changed some of the code so that the materials would still be visible. Originally, there was a material piece of code, which was blocking all of the materials from coming through.
+I deleted that then added an ImageTexture function, adding the correct file name to make sure the texture was coming up on the model, as seen below.
